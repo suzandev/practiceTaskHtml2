@@ -10,7 +10,7 @@
     <main class="container">
       <div class="pandaContainer">
         <hr />
-        <form action="">
+        <form action="" class="pandaForm1">
           <label for="kungFuPanda"> Search your Image here </label>
           <input type="text" placeholder="Kung Fu Panda" />
           <button>Search</button>
@@ -21,22 +21,31 @@
             src="assets/panda1.png"
             alt="this is a panda Image"
           />
-          <a href="#">For More</a>
-          <a href="#">click here</a>
+          <div class="linkbtn">
+            <a href="#">For More</a>
+            <a href="#">click here</a>
+          </div>
           <hr />
-          <form action="">
-            <label for="feedback">Feedback Form:</label><br />
-            <label for="name">Name:</label>
-            <input type="text" /><br />
-            <label for="date">Date:</label>
+          <form action="" class="pandaForm2">
+            <label class="textForm" for="feedback">Feedback Form:</label><br />
+            <label class="textForm" for="name">Name:</label><br />
+            <input class="textForm" type="text" /><br />
+            <label class="textForm" for="date">Date:</label><br />
             <input
+              class="textForm"
               type="date"
               name="mm/dd/yyyy"
               id=""
               placeholder="mm/dd/yyyy"
             /><br />
-            <label for="comments">Comments:</label><br />
-            <textarea name="comments" id="" cols="20" rows="10"></textarea
+            <label class="textForm" for="comments">Comments:</label><br />
+            <textarea
+              class="textForm"
+              name="comments"
+              id=""
+              cols="25"
+              rows="10"
+            ></textarea
             ><br />
             <button type="submit">Submit</button>
           </form>

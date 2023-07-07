@@ -8,24 +8,42 @@ body {
   height: 100vh;
 }
 
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
 .container {
   max-width: 1270px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .pandaContainer {
-  width: 400px;
-  padding-top: 20px;
-  border: 1px solid #ddd;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  width: 450px;
+  margin-top: 50px;
+  padding: 20px 15px;
+  box-shadow: 1px 1px 33px -1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 1px 1px 33px -1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 1px 1px 33px -1px rgba(0, 0, 0, 0.69);
+}
+
+.pandaForm1 {
+  margin-top: 10px;
 }
 
 .pandaImg {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.linkbtn {
+  margin: 5px 0;
+}
+
+.textForm {
+  margin-bottom: 8px;
 }
