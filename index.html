@@ -4,8 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice Task 2</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <h3>Hello World</h3>
+    <main class="container">
+      <div class="pandaContainer">
+        <hr />
+        <form action="">
+          <label for="kungFuPanda"> Search your Image here </label>
+          <input type="text" placeholder="Kung Fu Panda" />
+          <button>Search</button>
+        </form>
+        <div>
+          <img
+            class="pandaImg"
+            src="assets/panda1.png"
+            alt="this is a panda Image"
+          />
+          <a href="#">For More</a>
+          <a href="#">click here</a>
+          <hr />
+          <form action="">
+            <label for="feedback">Feedback Form:</label><br />
+            <label for="name">Name:</label>
+            <input type="text" /><br />
+            <label for="date">Date:</label>
+            <input
+              type="date"
+              name="mm/dd/yyyy"
+              id=""
+              placeholder="mm/dd/yyyy"
+            /><br />
+            <label for="comments">Comments:</label><br />
+            <textarea name="comments" id="" cols="20" rows="10"></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
